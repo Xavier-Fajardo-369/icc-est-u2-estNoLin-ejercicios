@@ -184,4 +184,97 @@ Para contribuir a este proyecto, por favor crea un fork y envía una solicitud d
 ## Autores
 
 - [PABLO TORRES] - Desarrollo inicial
+# Práctica de Estructuras No Lineales – Árboles
+
+## 📌 Información General
+
+- **Título:** Ejercicios Lógica con Árboles
+- **Asignatura:** Estructura de Datos
+- **Carrera:** Computación
+- **Estudiante:** [Xavier Fajardo]
+- **Fecha:** [06/07/2025]
+- **Profesor:** Ing. Pablo Torres
+
+---
+## 🌳 ¿Qué son los árboles en estructuras de datos?
+
+En el contexto de la programación, un **árbol** es una estructura de datos **no lineal** que organiza la información de forma **jerárquica**. Está formado por **nodos conectados entre sí**, comenzando desde un **nodo raíz** (nivel 1) que puede tener **uno o varios hijos**. A su vez, cada hijo puede tener sus propios descendientes, formando así niveles sucesivos.
+
+Los árboles **no contienen ciclos**, lo que significa que no se puede regresar al mismo nodo por diferentes caminos; es una estructura estrictamente **acíclica**. Esta propiedad permite representar relaciones padre-hijo de forma ordenada y eficiente, lo cual es útil para búsquedas, jerarquías y recorridos.
+
+---
+
+## 🛠️ Descripción
+
+Este proyecto implementa los ejercicios prácticos relacionados con árboles binarios propuestos en la guía académica. Cada ejercicio se encuentra estructurado en su propia carpeta.
+
+### ✅ Ejercicio 01: Insertar en Árbol BST
+- Se insertan valores en un **árbol binario de búsqueda** (BST).
+- Los nodos se posicionan respetando las reglas del BST: menores a la izquierda, mayores a la derecha.
+- El árbol se imprime visualmente.
+
+### ✅ Ejercicio 02: Invertir un Árbol Binario
+- Se implementa un algoritmo que **invierte** los hijos izquierdo y derecho de cada nodo recursivamente.
+- Se muestran el árbol original y el árbol invertido.
+
+### ✅ Ejercicio 03: Listar Niveles
+- Se recorren los niveles del árbol utilizando **BFS (breadth-first search)**.
+- Los nodos se agrupan por niveles y se presentan como listas enlazadas.
+
+### ✅ Ejercicio 04: Calcular Profundidad
+- Se determina la **profundidad máxima** del árbol, es decir, el número de niveles desde la raíz hasta la hoja más profunda.
+
+### 📦 Extras Incluidos
+- Implementación de **árbol AVL**, que se autobalancea tras cada inserción.
+- Métodos de **recorrido en preorden, inorden y postorden**, tanto iterativos como recursivos.
+- Impresión gráfica de la estructura del árbol.
+
+---
+## 🚀 Ejecución
+
+Para ejecutar el proyecto:
+
+1. Abrir el proyecto en tu entorno  VSCode.
+2. Ejecuta el archivo `App.java` ubicado en el paquete `main`.
+
+Desde consola:
+
+```bash
+#EJERCICIO 01: INSERTAR EN ÁRBOL BINARIO DE BÚSQUEDA
+└── 5
+    └── 3
+        └── 2
+        └── 4
+    └── 7
+        └── 6
+        └── 8
+
+#EJERCICIO 02: INVERTIR ÁRBOL
+#Árbol original:
+└── 4
+    └── 2
+        └── 1
+        └── 3
+    └── 7
+        └── 6
+        └── 9
+#Árbol invertido:
+└── 4
+    └── 7
+        └── 9
+        └── 6
+    └── 2
+        └── 3
+        └── 1
+
+#EJERCICIO 03: LISTAR NIVELES
+*Nivel 0: 4
+*Nivel 1: 2 7
+*Nivel 2: 1 3 6 9
+
+#EJERCICIO 04: PROFUNDIDAD DEL ÁRBOL
+*Profundidad máxima del árbol: 3
+
+
+
 
